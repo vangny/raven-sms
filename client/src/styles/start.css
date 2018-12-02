@@ -1,0 +1,12 @@
+.start-container {
+  height: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-button {
+  font-size: 6em;
+  cursor: pointer;
+}

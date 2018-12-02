@@ -1,0 +1,113 @@
+.message-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-areas: 'info chat';
+}
+
+.info-container {
+  grid-area: info;
+  margin: .5em;
+  display: grid;
+}
+
+.message-info {
+  padding: 0.5em;
+  margin: 1em;
+  background-color: #ede0df;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.change-guest-container {
+  margin: 1em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.chat-container {
+  grid-area: chat;
+  display: grid;
+  grid-template-rows: 60% 12% 28%;
+  grid-template-areas: 'chatbox'
+                       'templates'
+                       'textbox';
+}
+
+.chatbox-container {
+  grid-area: chatbox;
+  margin: .5em;
+  background-color: #ede0df;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.chatbox {
+  height: 100%;
+  max-height: 420.9px;
+  margin: .15em;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.chatbox-message {
+  padding: 0.5em;
+  margin: 1em;
+  background-color: #555e71;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.templates-container {
+  grid-area: templates;
+  height: 100%;
+  margin-left: .5em;
+}
+
+.text-container {
+  grid-area: textbox;
+  height: 100%;
+  margin: .5em;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* background: transparent; */
+}
+
+textarea {
+  min-width: 99.5%;
+  max-width: 99.5%;
+  min-height: 75%;
+  max-height: 75%;
+  background-color: #ede0df;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  border-style: none; 
+  border-color: Transparent; 
+  font-size: 1em;
+}
+
+select {
+  margin-right: .5em;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-style: none; 
+  border-color: Transparent; 
+  cursor: pointer;
+}
+
+button {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  cursor: pointer;
+}
+
+.send-button-container > button {
+  float: right;
+}

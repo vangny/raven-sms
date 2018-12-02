@@ -1,0 +1,17 @@
+.guest-container {
+  height: 100%;
+  margin: 0px 10px 10px 10px;
+}
+
+.guests {
+  overflow: scroll;
+}
+
+.company-container {
+  height: 100%;
+  margin: 0px 10px 10px 10px;
+}
+
+.companies {
+  overflow: scroll;
+}
