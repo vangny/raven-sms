@@ -23,4 +23,25 @@ app.use(
 app.use(express.static(`${__dirname}/../client/dist`));
 app.use(express.static(`${__dirname}, "jsx"`));
 
+
+app.get('/api/guests', (req, res) => {
+  res.send(guests);
+});
+
+app.get('/api/companies', (req, res) => {
+  res.send(companies);
+});
+
+app.get('/api/messages', (req, res) => {
+  const newMessages = JSON.parse(messages).map((template) => {
+    template.message = template.message.replace(/TIME/g, req.query.timedGreet);
+    template.message = template.message.replace(/NAME/g, req.query.guestName);
+    template.message = template.message.replace(/ROOMNUM/g, req.query.roomNum);
+    template.message = template.message.replace(/COMPANY/g, req.query.companyName);
+    return template;
+  })
+
+  res.send(JSON.stringify(newMessages));
+});
+
 module.exports = app;
