@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "description": "Room Is Ready",
+    "message": "Good TIME NAME, Room ROOMNUM is ready for you! We hope you enjoy your stay, and please let us know if there is anything you need."
+  },
+  {
+    "id": 2,
+    "description": "Free Dinner",
+    "message": "NAME, we just wanted to let you know that your dinner is on us tonight as a gift for being such a wonderful guest. Just show your waiter this text and they'll take care of you! As always, let us know if there is anything you need."
+  },
+  {
+    "id": 3,
+    "description": "Room Checkout",
+    "message": "Good TIME NAME, we just wanted to remind you that checkouts are required no later than noon. If anything pops up that inhibits you from doing so, feel free to contact us and we can try to work things out. We really hope you enjoyed your stay and everything was up to par or better than you expected!"
+  },
+  {
+    "id": 4,
+    "description": "Check On Guest",
+    "message": "Good TIME NAME, I'm just checking in to see if everything was going well, and if we could help with anything."
+  },
+  {
+    "id": 5,
+    "description": "Chef's Special",
+    "message": "NAME, don't forget to try the Chef's special tonight! We guarantee you'll love what he's cooking up tonight!"
+  },
+  {
+    "id": 6,
+    "description": "Preparing Room",
+    "message": "Good TIME NAME, and welcome to COMPANY! Room ROOMNUM should be ready soon, and in the mean time feel free to go relax by the pool or enjoy a meal on us. Just show the front desk this message and they'll help you further!"
+  },
+  {
+    "id": 7,
+    "description": "Goodbye",
+    "message": "NAME, we hope you enjoyed your stay here at COMPANY and we look forward to seeing you again!"
+  }
+]
