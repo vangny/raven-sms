@@ -46,6 +46,24 @@ npm run build:dev
 ## Design Choice
 Against the usual light themed messenger applications out there, I decided to have some fun with the design - using the name of the app as inspiration. Ravens are a dark colored birds that can be train to do a multitude of things, like sending messages from one location to another. A darker color scheme was implemented, with an off-white/tan color to bring some smooth contrast to the design. Both the Guests and Companies components serve two purposes, selecting their respective options, and providing myself the ability to take lazy loading another when I choose to do so in the future. The final component brings users to the message board. Users are provided the guest's name, room number, and business that they are currently staying with to help with writing up messages. They are also given a choice to reselect both the guest and company.
 
+## Future Additions
+* Convert app to a progressive web app
+* Make use of a database to store:
+    * Both guest and staff user accounts
+    * Chat history
+    * Transfer JSON files into their respective tables
+* Fix bugs such as:
+    * Keep the chatbox scroll position at the bottom
+* Differentiate users from guests and staff
+* Allow actual messaging between guests and staff
+* Enable a fluid and live interaction between users
+    * More than likely using sockets in the future
+* Performance improvements:
+    * Enable lazy loading
+    * Minify
+    * Uglify
+    * Compress files
+
 ## Author
 Nathan Vang
 
