@@ -38,13 +38,17 @@ npm run build:dev
 5. The webapp should be serverd locally on port 3030. If that port is already being used, you can change the port within the index.js file of the server folder
 
 ## Built With
-[ReactJS] - Frontend framework
-[NodeJS/Express]- Server-side framework
-[Reach Router]- Navigate through webapp
+[ReactJS](https://github.com/facebook/react) - Frontend framework - Used for its smaller initial library, modularity, and pure JavaScript. Templates, current guests and companies are JSON files, so a JavaScript approach felt best to access them due to being literal JavaScript objects.
+
+[NodeJS](https://github.com/nodejs/node) - JavaScript runtime environment - Sticking with the JavaScript approach, NodeJS fit the bill perfectly as it handles JSON files effortlessly.
+
+[ExpressJS](https://github.com/expressjs/express) - Web application framework - Since NodeJS is the choice to run the server, Express is lighweight, highly modular, and allows developers to quickly and intuitively design web applications.
+
+[ReachRouter](https://github.com/reach/router) - Router used to navigate through the webapp - Reach Router is a much lighter version of React Router and is used to help users navigate through the app.
 
 ## Author
 
-Nathan Vang-Original
+Nathan Vang
 
 ## License
 
