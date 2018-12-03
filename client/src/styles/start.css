@@ -7,6 +7,13 @@
 }
 
 .start-button {
-  font-size: 6em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #ede0df;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  font-size: 3em;
   cursor: pointer;
 }
